@@ -19,6 +19,7 @@ from django.urls import path, include
 from rest_framework import routers 
 from blog.views import BlogViewSet
 
+
 router = routers.DefaultRouter()
 router.register(r'blogs', BlogViewSet)
 
